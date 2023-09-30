@@ -170,7 +170,9 @@
                         <SplideSlide>
                             <img src="@/assets/reviews/s/27.png" alt="Actual customer image">
                         </SplideSlide>
-
+                        <SplideSlide>
+                            <img src="@/assets/reviews/s/28.png" alt="Actual customer image">
+                        </SplideSlide>
                     </SplideTrack>
                 </div>
             </Splide>
@@ -216,7 +218,7 @@ export default {
     max-width: 100%;
 }
 
-@media only screen and (min-width: 450px) {
+@media only screen and (min-width: 550px) {
   .s {
     display: none;
   }
@@ -225,7 +227,7 @@ export default {
   }
 }
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 550px) {
   .s {
     display: block;
   }
