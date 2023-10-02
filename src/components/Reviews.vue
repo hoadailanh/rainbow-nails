@@ -170,9 +170,6 @@
                         <SplideSlide>
                             <img src="@/assets/reviews/s/27.png" alt="Actual customer image">
                         </SplideSlide>
-                        <SplideSlide>
-                            <img src="@/assets/reviews/s/28.png" alt="Actual customer image">
-                        </SplideSlide>
                     </SplideTrack>
                 </div>
             </Splide>
