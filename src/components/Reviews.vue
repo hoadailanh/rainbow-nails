@@ -1,9 +1,12 @@
 <template>
     <div class="reviews">
-        <h3>What our customers are saying about us ...</h3>
+        <h3>What our customers are saying about us ... <a href="https://g.page/r/CUQ3vSk1e4mdEAI/review" target="_blank"><img src="@/assets/review-us-on-google.jpg" /></a></h3>
         <Splide :options="reviewOptions" :has-track="false" aria-label="Actual Images from customers" class="l">
             <div style="position: relative">
                 <SplideTrack>
+                    <SplideSlide>
+                            <img src="@/assets/reviews/29.png" alt="Actual customer image">
+                        </SplideSlide>
                     <SplideSlide>
                         <img src="@/assets/reviews/2.png" alt="Actual customer image">
                     </SplideSlide>
@@ -92,6 +95,9 @@
         <Splide :options="reviewOptions" :has-track="false" aria-label="Actual Images from customers" class="s">
                 <div style="position: relative">
                     <SplideTrack>
+                        <SplideSlide>
+                            <img src="@/assets/reviews/s/29.png" alt="Actual customer image">
+                        </SplideSlide>
                         <SplideSlide>
                             <img src="@/assets/reviews/s/2.png" alt="Actual customer image">
                         </SplideSlide>
@@ -192,7 +198,7 @@ export default {
             type: 'loop',
             gap: '1rem',
             autoplay: true,
-            focus: 'center',
+            focus: 0,
             autoHeight: true,
         }
 
@@ -206,11 +212,17 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
+<style scoped lang="scss">
 .splide {
     padding: 0
 }
 
+h3 {
+    img {
+    height: 30px;
+    width: 30px;
+    }
+}
 .reviews {
     max-width: 100%;
 }

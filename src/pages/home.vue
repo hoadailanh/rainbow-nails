@@ -996,7 +996,7 @@ export default {
       rewind: true,
       gap: '1rem',
       autoplay: true,
-      focus: 'center',
+      focus: 0,
       type: 'fade',
       easing: 'ease',
       autoHeight: true,
